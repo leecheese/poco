@@ -1,0 +1,303 @@
+* {
+box-sizing: border-box;
+font-family: 'Spoqa Han Sans Neo', 'sans-serif';
+}
+
+body {
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+
+margin: 0;
+width:100%;
+height:100%;
+background-color: rgb(26, 26, 27);
+padding: 0px
+}
+
+h2 {
+font-size: 1.5em;
+color: rgb(216, 216, 216);
+margin-bottom: 30px;
+}
+
+
+ul {
+display: flex;
+}
+
+a {
+vertical-align: text-bottom;
+color: rgb(241, 241, 241);
+list-style: none;
+padding-top: 10px;
+padding-bottom: 10px;
+padding-left: 15px;
+padding-right: 15px;
+text-decoration: none;
+}
+
+
+
+.navbar {
+position: -webkit-sticky;
+color: rgb(241, 241, 241);
+height: 60px;
+}
+
+.menu {
+font-weight: 300;
+}
+
+.title {
+font-size: 1em
+}
+
+.banner {
+z-index:1;
+height: 300px;
+background-image: url(assets/souvik-banerjee--WPrNEM_6dg-unsplash.jpg);
+background-position: center;
+background-size: cover;
+}
+
+.title2 {
+ color: rgb(51, 240, 215);
+position: absolute;
+top: 330px;
+left: 100px;
+font-size: 50px;
+background-color: rgb(19, 19, 19);
+padding: 10px 15px 10px 15px;
+font-weight: bold;
+border-radius: 10px;
+display: inline-block;
+}
+
+.title3 {
+ color: rgb(5, 13, 34);
+position: absolute;
+top: 330px;
+right: 100px;
+font-size: 50px;
+background-color: rgb(51, 240, 215);
+padding: 10px 15px 10px 15px;
+font-weight: bold;
+border-radius: 10px;
+display: inline-block;
+}
+
+.intro {
+padding-left : 100px;
+padding-top: 60px;
+font-size: 18px;
+color: rgb(214, 214, 214);
+line-height: 30px;
+font-weight: 400;
+}
+
+.contents {
+margin-top: 90px;
+margin-bottom: 100px;
+width: 85%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+}
+
+.column {
+border-radius: 7px;
+width: 23%;
+margin-right: 15px;
+margin-bottom: 15px;
+height: 200px;
+display: inline-block;
+position: relative;
+text-align: center;
+cursor: pointer;
+}
+
+#firstblock {
+border-radius: 7px;
+background-image: url(assets/stephen-phillips-hostreviews-co-uk-zs98a0DtKL4-unsplash.jpg);
+background-size: cover;
+height: 100%;
+}
+
+#secondblock {
+border-radius: 7px;
+background-image: url(assets/stephen-phillips-hostreviews-co-uk-2kH-6T6x_0I-unsplash.jpg);
+background-size: cover;
+height: 100%;
+}
+
+#thirdblock {
+border-radius: 7px;
+background-image: url(assets/stephen-phillips-hostreviews-co-uk-sSPzmL7fpWc-unsplash.jpg);
+background-size: cover;
+height: 100%;
+}
+
+#forthblock {
+border-radius: 7px;
+background-image: url(assets/luca-bravo-XJXWbfSo2f0-unsplash.jpg);
+background-size: cover;
+height: 100%;
+}
+
+.column:hover {
+box-shadow: 1px 3px 30px rgb(22, 22, 22);
+transition-duration: 0.3s;
+}
+
+.explain {
+border-radius: 7px;
+background-color: rgb(22, 22, 22);
+height: 115px
+}
+
+.column h4 {
+color: rgb(204, 204, 204);
+padding-top: 20px;
+text-align: center;
+}
+
+span {
+color: rgb(51, 240, 215);
+padding: 5px 10px 5px 10px;
+margin-left: 5px;
+margin-right: 5px;
+border-radius: 30px;
+border:rgb(15, 15, 15) 1px;
+background-color: rgb(15, 15, 15);
+font-weight: 300;
+}
+
+.contents-2 {
+margin-top: 200px;
+}
+
+.modal {
+text-align: center;
+background-color: rgb(51, 240, 215);
+border-radius: 7px;
+border: 1px rgb(51, 240, 215);
+width: 500px;
+font-size: 20px;
+padding: 30px;
+margin-right: auto;
+box-shadow: 1px 1px 30px rgb(17, 17, 17);
+z-index: 100;
+display: none;
+position: absolute;
+top: 50%;
+left: 50%;
+margin-left: -250px;
+}
+
+button {
+outline-style: none;
+font-size: 16px;
+border: 1px rgb(15, 15, 15);
+padding: 10px 20px 10px 20px;
+background-color: rgb(15, 15, 15);
+border-radius: 30px;
+color: silver;
+cursor: pointer;
+}
+
+.contents-2 p {
+color: rgb(214, 214, 214);
+margin-bottom: 30px;
+}
+
+.modal p {
+color: black;
+}
+
+.contents-2 h2 {
+margin: 0;
+}
+
+
+.docs {
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+margin-top: 80px;
+color: rgb(224, 224, 224);
+}
+
+.divider {
+width: 100%;
+height: 1px;
+background-color: rgb(155, 155, 155);
+margin-bottom: 20px;
+margin-top: 20px;
+}
+
+.index {
+background-color: rgb(39, 39, 39);
+padding-left: 30px;
+padding-top: 5px;
+padding-bottom: 25px;
+border-radius: 7px;
+}
+
+.index li {
+list-style: none;
+color: rgb(218, 218, 218);
+line-height: 30px;
+}
+
+/* .index a {
+te
+} */
+
+#dothome {
+color: rgb(51, 240, 215);
+display: inline-block;
+}
+
+#dothome:hover {
+color: rgb(51, 240, 215);
+text-decoration: underline;
+cursor: pointer;
+}
+
+.space {
+height: 80px;
+}
+
+::-webkit-scrollbar {
+width: 10px; /*스크롤바의 너비*/
+border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb {
+background-color: rgb(56, 56, 56); /*스크롤바의 색상*/
+}
+
+::-webkit-scrollbar-track {
+background-color: rgb(26, 26, 27); /*스크롤바 트랙 색상*/
+}
+
+
+
+.callout {
+background-color: rgb(39, 39, 39);
+padding: 10px;
+padding-left: 30px;
+padding-right: 30px;
+border-radius: 7px;
+}
+
+.nextchapter {
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+#btn {
+background-color: rgb(14, 14, 14);
+color: rgb(51, 240, 215);
+}
